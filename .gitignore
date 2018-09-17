@@ -6,3 +6,6 @@ SDK8/obj/
 SDK8/packages/
 packages/
 SDK8/bin/
+.vs/
+SDK9/bin/
+SDK9/obj/

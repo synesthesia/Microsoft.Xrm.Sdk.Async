@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 
 [assembly: AssemblyTitle("Microsoft.Xrm.Sdk.Async")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Interim SSAT port to V9")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Microsoft.Xrm.Sdk.Async")]
@@ -27,4 +27,9 @@ using System.Runtime.InteropServices;
 #if SDK8
 [assembly: AssemblyVersion("8.0.4.0")]
 [assembly: AssemblyFileVersion("8.0.4.0")]
+#endif
+
+#if SDK9
+[assembly: AssemblyVersion("9.0.0.0")]
+[assembly: AssemblyFileVersion("9.0.0.0")]
 #endif
